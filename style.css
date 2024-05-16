@@ -140,8 +140,13 @@ a,.logo {
     font-weight: bold;
 }
 
-.demoapp .container .box .bigbox,
-.demoapp .container .row .smallbox {
+.demoapp .container .box .bigbox{
+    background-color: #b5ddff ;
+
+}
+
+
+.demoapp .container .box .smallbox {
     background-color: #b5ddff ;
 }
 
@@ -149,4 +154,8 @@ a,.logo {
     color:#0084fd;
     font-size: 80px;
     margin: 36px;
+}
+
+.box{
+    flex-wrap: wrap;
 }
