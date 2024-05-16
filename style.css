@@ -25,6 +25,7 @@ p {
 }
 
 
+
 /* header */
 .navbar {
     background-color: #0084fd;
@@ -158,4 +159,129 @@ a,.logo {
 
 .box{
     flex-wrap: wrap;
+}
+
+
+/* Main2 */
+
+.sezione2 {
+    background-color:#9792e4;
+}
+
+.sezione2 .container .colonna h2 {
+    padding: 100px 0;
+}
+
+.sezione2 .container .colonna:first-child {
+    color: #ffffff;
+    margin: 0 0 0 100px;
+    padding: 20px;
+}
+
+.sezione2 .container.flex {
+    align-items: end;
+    gap: 40px;
+}
+
+.sezione2 .container .colonna:last-child {
+    color:#000000;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.sezione2 .container div.colonna {
+    width: 50%;
+}
+
+.sezione2 .container .colonna:last-child .img {
+    margin-bottom: 24px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sezione2 .container .colonna:last-child .boxtext h3,
+.sezione2 .container .colonna:last-child .boxtext p {
+    margin-bottom: 24px;
+}
+
+.sezione2 .container .colonna .boxtext i {
+    background-color: #9792e4;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+/* Testimonial */
+.testimonial .container .box.flex {
+    padding-right: 20px;
+}
+
+
+.testimonial .container .box h2 {
+    color:#9792e4;
+    padding: 16px 0;
+}
+
+.testimonial .container .box.flex {
+    background-color:#9792e4;
+    border-radius: 50px;
+    color:#ffffff;
+    align-items: center;
+}
+
+.testimonial .container .box .colonna2:first-child {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(img/testimonial1.jpg);
+}
+
+.testimonial .container .box.flex .img1 {
+    background-image:url(img/testimonial1.jpg);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.testimonial .container .box.flex .img2 {
+    background-image:url(img/testimonial2.jpg);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.testimonial .container .box.flex .img3 {
+    background-image:url(img/testimonial3.jpg);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.testimonial .container .box .colonna2 p,
+.testimonial .container .box.center {
+    margin-bottom: 30px;
+}
+
+.testimonial .container .box .colonna2 p > i.fa-solid.fa-quote-left {
+    vertical-align: top;
+}
+
+.testimonial .container .box .colonna2 p > i.fa-solid.fa-quote-right {
+    vertical-align: bottom;
 }
