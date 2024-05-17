@@ -15,6 +15,14 @@ body {
 
 /* testo */
 
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
 h3 {
     font-size: 24px;
 }
@@ -22,6 +30,11 @@ h3 {
 p {
     font-size: 18px;
     line-height: 1.8;
+}
+
+h4 {
+    font-size: 72px;
+    font-weight: bold;
 }
 
 
@@ -157,7 +170,7 @@ a,.logo {
     margin: 36px;
 }
 
-.box{
+.demoapp .container .box{
     flex-wrap: wrap;
 }
 
@@ -214,6 +227,7 @@ a,.logo {
 
 
 /* Testimonial */
+
 .testimonial .container .box.flex {
     padding-right: 20px;
 }
@@ -285,3 +299,138 @@ a,.logo {
 .testimonial .container .box .colonna2 p > i.fa-solid.fa-quote-right {
     vertical-align: bottom;
 }
+
+
+/* Benefits */
+
+.benefits {
+    background-color:#9792e4;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.benefits .container .box h2 {
+    color:#ffffff;
+    padding-bottom: 75px;
+}
+
+.benefits .container .flex {
+    flex-wrap: wrap;
+}
+
+.benefits .flex {
+    gap: 15px;
+}
+
+.benefits .box .smallbox h4,
+.benefits .box .smallbox h3 {
+    color:#9792e4;
+    margin-bottom: 20px;
+}
+
+.benefits .box .smallbox {
+    width: calc((100% - 30px) / 3);
+    background-color:#ffffff;
+    border-radius: 50px;
+    color:#333333;
+}
+
+.benefits .botton {
+    background-color:#9792e4;
+    color: #ffffff;
+    padding: 5px 40px;
+    margin: 30px 0;
+}
+
+.space {
+    letter-spacing: 3px;
+}
+
+/* Testimonial */
+
+.about .colonnasmall {
+    width: 20%;
+    flex-shrink: 0;
+    position: relative;
+    color:#9792e4;
+}
+
+.about .colonnasmall img {
+    border-radius: 50%;
+}
+
+.about .colonnasmall > i {
+    position: absolute;
+    font-size: 70px;
+    top: 0;
+    right: 0;
+}
+
+.about .colonnabig {
+    padding-right: 40px;
+    color:#9792e4;
+}
+
+.about p {
+    margin-top: 30px;
+    color: #333333;
+}
+
+.about .container .box .colonnasmall .botton {
+    font-size: 12px;
+    background-color:#9792e4;
+    color:#ffffff;
+    margin: 20px 0;
+}
+
+.about .container .box .colonnasmall .botton > i {
+    margin-right: 5px;
+}
+
+
+
+/*Get Started*/
+
+.started {
+    background-color:#9792e4;
+    color:#ffffff;
+}
+
+.started .container {
+    max-width: 50%;
+}
+
+.started .container .boxtext h4 {
+    color:#fdc15f;
+}
+
+.started .container .boxtext .botton {
+    background-color:#ffffff;
+    color:#9792e4;
+    padding: 15px 50px;
+    margin: 20px 0;
+}
+
+.started .container .boxtext div.privacy {
+    font-size: 10px;
+}
+
+.started .container .boxtext .privacy > i {
+    font-size: 4px;
+}
+  
+
+/*Responsive leyout*/
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*tablet view*/
